@@ -8,14 +8,14 @@ describe("Valentines", function () {
     await contract.deployed();
 
     let lines = [
-      "flowers flow",
-      "flowers fly",
-      "flowers bloom",
-      "flowers die",
-      "flowers blow",
-      "flowers dance",
-      "flowers love",
-      "flowers prance"
+      "Roses are red",
+      "Violets are blue",
+      "Have a great day",
+      "Because I love you",
+      "",
+      "",
+      "",
+      ""
     ]
     let mintTxn = await contract.mint(lines);
     await mintTxn.wait();

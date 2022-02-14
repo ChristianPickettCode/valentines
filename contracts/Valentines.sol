@@ -205,5 +205,5 @@ contract Valentines is ERC721Enumerable, ReentrancyGuard, Ownable {
     return string(buffer);
   }
 
-  constructor() ERC721("Valentines", "LOVE") Ownable() {}
+  constructor() ERC721("Valentines Day Poem", "LOVE") Ownable() {}
 }
